@@ -38,6 +38,18 @@ body {
 }
 
 
+.navbar .tambahan a {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #ffee00, #e70682);
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
 .navbar ul {
   display: flex;
   gap: 30px; /* You can change size */
