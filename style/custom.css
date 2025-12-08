@@ -126,10 +126,54 @@ section h1 span {
   padding: 2rem;
 }
 
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .nama {
+    margin-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+    white-space: normal;
+  }
+
+  .text1 {
+    margin-top: 1rem;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .hani {
+    margin: 0;
+    max-width: 12rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nama {
+    font-size: 1.8rem;
+  }
+  
+  .text1 {
+    font-size: 0.9rem;
+  }
+
+  .hani {
+    max-width: 10rem;
+  }
+}
+
 /* end hero */
 /* About me */
 
-.section {
+/* .section {
   width: 100%;
   height: 35rem;
   background-color: #797979;
@@ -204,7 +248,104 @@ section h1 span {
   gap: 1rem;
   position: relative;
   top: 6rem;
+} */
+
+.section {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: #797979;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
+
+.me {
+  color: yellow;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  padding: 1rem;
+}
+
+.content-section .tittle {
+  text-transform: uppercase;
+  font-size: 28px;
+  color: white;
+}
+
+.content {
+  margin-top: 1.5rem;
+}
+
+.content-section .content p {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: rgb(245, 245, 245);
+}
+
+/* IMAGE */
+.image img {
+  width: 22rem;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+/* SOCIALS */
+.sosmed {
+  font-size: 30px;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  color: white;
+}
+
+/* ====================== */
+/* 📱 RESPONSIVE (TABLET) */
+/* ====================== */
+@media (max-width: 992px) {
+  .section {
+    flex-direction: column;
+    padding: 3rem 1rem;
+    height: auto;
+  }
+
+  .image img {
+    width: 18rem;
+  }
+}
+
+/* ====================== */
+/* 📱 RESPONSIVE (MOBILE) */
+/* ====================== */
+@media (max-width: 600px) {
+  .content-section .tittle {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .content-section .content p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .sosmed {
+    justify-content: center;
+  }
+
+  .image img {
+    width: 14rem;
+  }
+}
+
 
 /* About me end */
 
