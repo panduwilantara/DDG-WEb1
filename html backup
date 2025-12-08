@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style/custom.css" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="/images/matahari_2-removebg-preview.png" alt="" />
+    </div>
+    <ul>
+      <li class="list">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+    <div class="tambahan">
+      <a href="/images/html.png" download>Download cv</a>
+    </div>
+  </nav>
+  <!-- hero -->
+  <section class="hero">
+    <h1 class="nama">I am Pandu <span>Wilantara</span></h1>
+
+    <h4 class="text1">
+      i am a junior front-end developer, I love turning ideas into interfaces
+      people can actually feel and use. There’s something satisfying about
+      taking a blank screen and shaping it with HTML, styling it with CSS, and
+      bringing it to life with JavaScript. I care about making every
+      interaction smooth, accessible, and enjoyable—because a good user
+      experience is built from the little details
+    </h4>
+    <img class="hani" src="/images/hanni-removebg-preview.png" alt="" />
+  </section>
+
+  <!-- about me -->
+
+  <div class="section">
+    <div class="container">
+      <div class="content-section">
+        <div class="tittle">
+          <h1>About <span class="me">Me</span></h1>
+        </div>
+      </div>
+      <div class="content">
+        <!-- <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit<h3> -->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eligendi
+          ratione, veniam iste explicabo quis commodi qui! Excepturi in
+          asperiores quae odio! Sapiente deserunt eos deleniti nam totam
+          officiis odio distinctio. Repellat dignissimos odit
+        </p>
+        <div class="button">
+          <a href="">Read more</a>
+        </div>
+      </div>
+      <div class="sosmed">
+        <i class="ri-instagram-line"></i>
+        <i class="ri-github-fill"></i>
+        <i class="ri-linkedin-fill"></i>
+      </div>
+    </div>
+    <div class="image">
+      <img src="/images/hanni-removebg-preview.png" alt="" />
+    </div>
+  </div>
+
+  <!-- skilss -->
+
+  <section class="skills">
+
+    <h3 class="text3">My <span>Skills</span></h3>
+
+    <div class="box">
+
+    </div>
+    <div class="logos">
+      <i class="ri-css3-fill custom_css_icon"></i>
+      <i class="ri-html5-fill custom_html_icon"></i>
+      <i class="ri-javascript-fill custom_js_icon"></i>
+      <i class="ri-php-fill custom_php_icon"></i>
+      <i class="ri-android-fill custom_andro_icon"></i>
+    </div>
+  </section>
+
+
+  <div class="form">
+    <form action="https://formspree.io/f/mkglglvz" method="POST">
+      <label>
+        Your name:
+        <input type="text" name="Nama" id="">
+        Your email:
+        <input type="email" name="email">
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <input type="hidden" name="_format" id="plain">
+      <button type="submit">Send</button>
+    </form>
+    </form>
+  </div>
+
+</body>
+
+</html>

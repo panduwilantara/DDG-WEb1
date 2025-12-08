@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="/form.css" />
+  </head>
+  <body>
+    <div class="contact-section">
+      <div class="inner-width">
+        <h1>Wanna know more about me?</h1>
+        <div class="border"></div>
+        <form action="https://formspree.io/f/mvgebqzr" method="POST" class="contact-form">
+          <label class="contact-form-text">
+            <input type="text" name="text" placeholder="Your Name" />
+          </label>
+          <label class="contact-form-text">
+            <input type="email" name="email" placeholder="Your Email" />
+          </label>
+          <label class="contact-form-text">
+            <textarea name="message" placeholder="Your Message"></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit" class="contact-form-btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
