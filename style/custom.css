@@ -372,6 +372,35 @@ section h1 span {
 span {
   color: yellow;
 }
+
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 50px 5%;
+  }
+
+  .skills .title {
+    font-size: 32px;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr; /* 1 column on smaller screens */
+    gap: 15px;
+  }
+
+  .skill-card {
+    padding: 20px;
+  }
+
+  .skill-card i {
+    font-size: 40px;
+  }
+
+  .skill-card h3 {
+    font-size: 18px;
+  }
+}
+
 /* skills end */
 
 /* project */
