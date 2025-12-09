@@ -67,6 +67,48 @@ body {
 nav div img {
   width: 50px;
 }
+
+
+@media (max-width: 768px) {
+  .navbar ul {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    width: 200px;
+    padding: 1rem 0;
+    text-align: center;
+    display: none; /* Hide menu by default */
+  }
+
+  .navbar ul.show {
+    display: flex; /* Show when toggled */
+  }
+
+  /* Hide download button on small screens (optional) */
+  .tambahan {
+    display: none;
+  }
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+
+
+
 /* end navbar */
 
 /* hero */
@@ -126,6 +168,7 @@ section h1 span {
     align-items: center;
     text-align: center;
     padding: 1.5rem;
+    margin-top: 6rem;
   }
 
   .nama {
@@ -280,12 +323,12 @@ section h1 span {
 }
 
 .skills .title span {
-  color: #00c3ff;
+  color: yellow;
 }
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(2, minmax(200px, 2fr));
   gap: 25px;
 }
 
@@ -376,7 +419,7 @@ span {
 
 .footer {
   width: 100%;
-  background: #1a1a1a; /* warna gelap elegan */
+  background: #1a1a1a; 
   padding: 30px 0;
   display: flex;
   justify-content: center;
@@ -396,7 +439,7 @@ span {
 .logo2 li a {
   width: 45px;
   height: 45px;
-  background: #ffffff10; /* transparan lembut */
+  background: #ffffff10; 
   backdrop-filter: blur(5px);
   border: 2px solid #ffffff20;
   border-radius: 12px;
@@ -413,7 +456,6 @@ span {
   transition: 0.3s ease;
 }
 
-/* Hover effect glowing */
 .logo2 li a:hover {
   transform: translateY(-6px);
   border-color: #fff;
@@ -431,8 +473,6 @@ span {
   font-size: 14px;
   margin-top: 10px;
 }
-
-
 
 
 /* .test button {

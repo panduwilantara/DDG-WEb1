@@ -29,6 +29,7 @@
   <div class="tambahan">
     <a href="images/CV PANDU.jpg" download>Download cv</a>
   </div>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
 </nav>
 
 
@@ -153,5 +154,11 @@
 
       </div>
     </div>
+
+<script>
+  function toggleMenu() {
+    document.querySelector(".navbar ul").classList.toggle("show");
+  }
+</script>
   </body>
 </html>
